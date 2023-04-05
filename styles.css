@@ -2,3 +2,59 @@ p {
     color: green;
     padding: 30px;
 }
+
+/* esse * abaixo serve para criar padrão em todas palavras que nao tem cor/fonte definidas */
+* {
+    font-family: Arial;
+} 
+
+/* ID */
+#main-title {
+    color: red;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class */
+.my-content {
+    color: blue;
+    padding: 30px;
+    background-color: yellowgreen;
+}
+
+/* Colors */
+.hexa {
+    background-color: #371503;
+}
+
+.rgb {
+    background-color: rgb(50, 0, 65);
+}
+
+.color-name {
+    background-color: black;
+}
+
+.sansf-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big-text {
+    font-size: 40px;
+}
+
+.heavy-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
